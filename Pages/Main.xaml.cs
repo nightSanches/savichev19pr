@@ -10,7 +10,11 @@ namespace savichev19pr.Pages
         public Main()
         {
             InitializeComponent();
-            items.Add(new Item("Шкаф", 20000, "01.jpg"));
+            items.Add(new Item("Диван", 10000, "01.jpg"));
+            items.Add(new Item("Стол письменный", 9000, "02.jpg"));
+            items.Add(new Item("Стол кухонный", 5000, "03.jpg"));
+            items.Add(new Item("Диван-кровать", 12000, "04.jpg"));
+            items.Add(new Item("Шкаф", 16000, "05.jpg"));
             LoadItems();
         }
 

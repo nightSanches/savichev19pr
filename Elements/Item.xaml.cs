@@ -24,9 +24,9 @@ namespace savichev19pr.Elements
 
             if (item != null)
             {
-                if (File.Exists(Directory.GetCurrentDirectory() + "/Images/" + item.src))
+                if (File.Exists(Directory.GetCurrentDirectory() + "/Image/" + item.src))
                 {
-                    image.Source = new BitmapImage(new Uri(Directory.GetCurrentDirectory() + "/Images/" + item.src));
+                    image.Source = new BitmapImage(new Uri(Directory.GetCurrentDirectory() + "/Image/" + item.src));
                 }
                 price.Content = item.price;
                 name.Content = item.name;
