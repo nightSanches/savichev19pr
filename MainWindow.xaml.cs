@@ -23,6 +23,12 @@ namespace savichev19pr
         public MainWindow()
         {
             InitializeComponent();
+            OpenPages(new Pages.Main());
+        }
+
+        public void OpenPages(Page page)
+        {
+            frame.Navigate(page);
         }
     }
 }
